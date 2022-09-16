@@ -8,7 +8,8 @@ operators = {
     "+": lambda a, b: a + b,
     "-": lambda a, b: a - b,
     "*": lambda a, b: a * b,
-    "/": lambda a, b: a / b
+    "/": lambda a, b: a / b,
+    "^": lambda a, b: a ** b
 }
 
 def main():
