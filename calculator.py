@@ -4,12 +4,16 @@
 
 # this dictionary contains all the operators this calculator can hander, 
 # as well as the logical functions they resolve to
+import math
+
+
 operators = {
     "+": lambda a, b: a + b,
     "-": lambda a, b: a - b,
     "*": lambda a, b: a * b,
     "/": lambda a, b: a / b,
-    "^": lambda a, b: a ** b
+    "^": lambda a, b: a ** b,
+    "log": lambda a, b: math.log(a, b)
 }
 
 def main():
