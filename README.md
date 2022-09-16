@@ -13,3 +13,4 @@ here are the operations supported by the program
 3. multiplication (*)
 4. division (/)
 5. power of (^)
+6. logarithm (log) **note**: syntax of this operation is log<sub>b</sub>(a), meaning b is the base.
