@@ -50,5 +50,5 @@ def valid_input(user_input: str) -> bool:
         return False
     
     return True
-
-main()
+if __name__ == "__main__":
+    main()
