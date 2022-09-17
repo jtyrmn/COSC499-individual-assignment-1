@@ -17,8 +17,6 @@ operators = {
 }
 
 def main():
-    print("starting calculator...") # simple addition
-    
     while(True):
         user_input = input()
         if user_input == 'exit':
